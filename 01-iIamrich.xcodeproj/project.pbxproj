@@ -99,10 +99,10 @@
 		84409FFD2484143D00AFDC08 /* 01-iIamrich */ = {
 			isa = PBXGroup;
 			children = (
+				8490F8F324B7B470000FE1E6 /* Controller */,
+				8490F8F224B7B463000FE1E6 /* Storyboard */,
 				84409FFE2484143D00AFDC08 /* AppDelegate.swift */,
 				8440A0002484143D00AFDC08 /* SceneDelegate.swift */,
-				8440A0022484143D00AFDC08 /* ViewController.swift */,
-				8440A0042484143D00AFDC08 /* Main.storyboard */,
 				8440A0072484143E00AFDC08 /* Assets.xcassets */,
 				8440A0092484143E00AFDC08 /* LaunchScreen.storyboard */,
 				8440A00C2484143E00AFDC08 /* Info.plist */,
@@ -126,6 +126,22 @@
 				8440A0222484143E00AFDC08 /* Info.plist */,
 			);
 			path = "01-iIamrichUITests";
+			sourceTree = "<group>";
+		};
+		8490F8F224B7B463000FE1E6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8440A0042484143D00AFDC08 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8490F8F324B7B470000FE1E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8440A0022484143D00AFDC08 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
